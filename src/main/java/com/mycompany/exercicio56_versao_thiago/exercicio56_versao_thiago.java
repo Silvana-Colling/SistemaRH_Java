@@ -16,7 +16,7 @@ public class exercicio56_versao_thiago {
         ArrayList<Veiculo> comboio = new ArrayList<>();
         
         System.out.print("Quantos veiculos pretende cadastrar? ");
-        int quantidade = leitor.nextInt();
+        String quantidade = leitor.nextInt();
         leitor.nextLine();
         
         for (int i = 0; i < quantidade; i++ ){
